@@ -1,0 +1,93 @@
+body {
+	font-size: 16px;
+	color: black;
+	background-color: #b2cecf;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+/* HEADER */
+#header-nav {
+	background-color: #50d07d;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	height: 100px;
+}
+.navbar-brand h1 {
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 15px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#list {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+#list a {
+	font-size: 1.2em;
+	color: #d02552;
+	text-align: center;
+	border: 1px solid #fff;
+}
+#list a:hover {
+	background-color: #e7e7e7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #337ab7;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -70px;
+}
+/* END HEADER */
+
+/* HOME PAGE */
+h2 {
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.inside {
+	position: relative;
+	height: 700px;
+	background-color: pink;
+	border: 1px solid red;
+	margin-bottom: 25px;
+}
+.inside p {
+	padding: 15px;
+}
+.inside a {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	margin-bottom: 10px;
+}
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
